@@ -8,7 +8,7 @@ We validate our model on two highway traffic datasets PeMSD4 from California. Th
 * 3394 data/target examples will be used as the validation set (12 days)
 * 3394 data/target examples will be used as the testing set (12 days)
 
-# Model layers - 
+# Model layers :- 
 ## Temporal attention layer
 
 In the temporal dimension, there exist correlations between the traffic conditions in different time slices, and the correlations are also varying under different situations. Likewise, we use an attention mechanism to adaptively attach different importance to data.
